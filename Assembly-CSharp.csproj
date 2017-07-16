@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5CD684C7-640F-A182-F931-2C8167018CC0}</ProjectGuid>
+    <ProjectGuid>{B7B5308D-91E0-032D-27D1-972F5C7C00FD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -71,6 +71,7 @@
      <Compile Include="Assets\HSVPicker\UtilityScripts\BoxSlider.cs" />
      <Compile Include="Assets\HSVPicker\UtilityScripts\HSVUtil.cs" />
      <Compile Include="Assets\ParticlePainter.cs" />
+     <Compile Include="Assets\Scripts\MyLog.cs" />
      <Compile Include="Assets\Scripts\PortalCamera.cs" />
      <Compile Include="Assets\Scripts\Sender.cs" />
      <Compile Include="Assets\Scripts\SlowlyRotate.cs" />
@@ -78,13 +79,13 @@
      <Compile Include="Assets\UnityARAmbient.cs" />
      <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\MobileOcclusion.shader" />
      <None Include="Assets\NewImageEffectShader.shader" />
-     <None Include="Assets\SCENES.txt" />
      <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\MobileARShadow.shader" />
      <None Include="Assets\Examples\InstancedSurfaceShader.shader" />
      <None Include="Assets\TUTORIAL.txt" />
      <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
+     <None Include="Assets\SCENES.txt" />
  <Reference Include="Assembly-CSharp-firstpass">
- <HintPath>C:/Users/comrade/Documents/ARPortal/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
+ <HintPath>C:/Users/comrade/Documents/smoothPortal/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity 2017.1.0b7/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

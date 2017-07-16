@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{81F5299C-90D0-94EC-F275-ABB6511AEDC4}</ProjectGuid>
+    <ProjectGuid>{B593B9A0-B0DC-3FAE-A7D8-502F74A4410D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -55,19 +55,19 @@
      <Compile Include="Assets\HSVPicker\Editor\BoxSliderEditor.cs" />
      <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\MobileOcclusion.shader" />
      <None Include="Assets\NewImageEffectShader.shader" />
-     <None Include="Assets\SCENES.txt" />
      <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\MobileARShadow.shader" />
      <None Include="Assets\Examples\InstancedSurfaceShader.shader" />
      <None Include="Assets\TUTORIAL.txt" />
      <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
+     <None Include="Assets\SCENES.txt" />
  <Reference Include="Assembly-CSharp-firstpass">
- <HintPath>C:/Users/comrade/Documents/ARPortal/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
+ <HintPath>C:/Users/comrade/Documents/smoothPortal/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="Assembly-CSharp">
- <HintPath>C:/Users/comrade/Documents/ARPortal/Library/ScriptAssemblies/Assembly-CSharp.dll</HintPath>
+ <HintPath>C:/Users/comrade/Documents/smoothPortal/Library/ScriptAssemblies/Assembly-CSharp.dll</HintPath>
  </Reference>
  <Reference Include="Assembly-CSharp-Editor-firstpass">
- <HintPath>C:/Users/comrade/Documents/ARPortal/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll</HintPath>
+ <HintPath>C:/Users/comrade/Documents/smoothPortal/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity 2017.1.0b7/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>

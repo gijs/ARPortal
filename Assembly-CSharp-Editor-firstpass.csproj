@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{473EA420-52E1-8234-30F4-4636C13A034D}</ProjectGuid>
+    <ProjectGuid>{11311EC1-1698-5954-FE3C-1DF71CD09871}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -54,13 +54,13 @@
      <Compile Include="Assets\Plugins\iOS\UnityARKit\Editor\UnityARBuildPostprocessor.cs" />
      <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\MobileOcclusion.shader" />
      <None Include="Assets\NewImageEffectShader.shader" />
-     <None Include="Assets\SCENES.txt" />
      <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\MobileARShadow.shader" />
      <None Include="Assets\Examples\InstancedSurfaceShader.shader" />
      <None Include="Assets\TUTORIAL.txt" />
      <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
+     <None Include="Assets\SCENES.txt" />
  <Reference Include="Assembly-CSharp-firstpass">
- <HintPath>C:/Users/comrade/Documents/ARPortal/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
+ <HintPath>C:/Users/comrade/Documents/smoothPortal/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity 2017.1.0b7/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>

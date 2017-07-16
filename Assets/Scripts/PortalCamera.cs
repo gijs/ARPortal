@@ -32,6 +32,6 @@ public class PortalCamera : MonoBehaviour {
 
         // adjust rotation of camera
         Vector3 newFacingDirection = relative * playerCamera.transform.forward;
-		transform.rotation = Quaternion.LookRotation(newFacingDirection, Vector3.up);
+        transform.rotation = Quaternion.LookRotation(newFacingDirection, Vector3.up);
     }
 }

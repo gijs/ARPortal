@@ -38,7 +38,7 @@ public class Sender : MonoBehaviour {
         
         Vector3 positionOffset = player.transform.position - transform.position;
         positionOffset = relativeDiff * positionOffset;
-//        player.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().Rotate(relativeDiff);
+        player.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().Rotate(relativeDiff);
         
         player.transform.position = receiver.transform.position + positionOffset;
     }
@@ -46,8 +46,10 @@ public class Sender : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
+		Debug.Log("TRIGGERENTER: " + other.tag);
         if (other.tag == "MainCamera")
         {
+			
             playerOverlapping = true;
         }
     }
