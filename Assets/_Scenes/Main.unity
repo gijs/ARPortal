@@ -653,6 +653,8 @@ GameObject:
   - component: {fileID: 359222970}
   - component: {fileID: 359222971}
   - component: {fileID: 359222968}
+  - component: {fileID: 359222972}
+  - component: {fileID: 359222969}
   m_Layer: 0
   m_Name: FirstPersonCharacter
   m_TagString: MainCamera
@@ -677,7 +679,7 @@ Camera:
   m_GameObject: {fileID: 359222962}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -832,6 +834,18 @@ MonoBehaviour:
   m_FootstepSounds: []
   m_JumpSound: {fileID: 0}
   m_LandSound: {fileID: 0}
+--- !u!114 &359222969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 359222962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b58ecea7a196242dd879c814ac05084c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ClearMaterial: {fileID: 2100000, guid: f1d9352050a75486f878ab19fa578f16, type: 2}
 --- !u!82 &359222970
 AudioSource:
   m_ObjectHideFlags: 0
@@ -929,6 +943,17 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &359222972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 359222962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce437cef046e841aabd6070890e79d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &361010191
 Camera:
   m_ObjectHideFlags: 0
@@ -1768,7 +1793,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &620294023
 MonoBehaviour:
   m_ObjectHideFlags: 0
