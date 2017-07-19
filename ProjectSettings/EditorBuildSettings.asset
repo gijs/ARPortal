@@ -6,5 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/Main.unity
-    guid: 4f5821527c8d6ba438ccbe615f3968b3
+    path: Assets/Demo/Scenes/ARKitDemo.unity
+    guid: deebb478fe01f435895b8329c315cd04
