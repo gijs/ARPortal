@@ -465,8 +465,10 @@ public class Portal : MonoBehaviour
 	public Dimension ToDimension ()
 	{
 		if (dimensionSwitched) {
+			mainCamera.GetComponent<Camera> ().clearFlags = CameraClearFlags.Skybox;
 			return dimension1;
 		} else {
+			mainCamera.GetComponent<Camera>().clearFlags = CameraClearFlags.Depth;
 			return dimension2;
 		}
 	}
